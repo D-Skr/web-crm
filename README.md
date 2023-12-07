@@ -1,0 +1,2 @@
+# web-crm
+Python + Django
