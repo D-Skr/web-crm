@@ -8,10 +8,7 @@
 <br>
 <form action="{% url 'thanks_page' %}" method="POST">
     {% csrf_token %}
-    <label>Name</label>
-    <input name="name">
-    <label>Phone</label>
-    <input name="phone">
+    {{ form.as_p }}
     <button type="submit">Submit</button>
 </form>
 <br>
